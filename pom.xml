@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	 <name>helloworld</name>
+	 <name>hello-world</name>
 	 
 	<properties>
 		<!-- github server corresponds to entry in ~/.m2/settings.xml -->
@@ -54,8 +54,8 @@
 					<includes>
 						<include>**/*</include>
 					</includes>
-					<repositoryName>ecp-repo</repositoryName>      <!-- github repo name -->
-					<repositoryOwner>navisatebi</repositoryOwner>    <!-- github username -->
+					<repositoryName>hello-world</repositoryName>      <!-- github repo name -->
+					<repositoryOwner>EMBL-EBI-TSI</repositoryOwner>    <!-- github username -->
 				</configuration>
 				<executions>
 					<!-- run site-maven-plugin's 'site' target as part of the build's normal 
