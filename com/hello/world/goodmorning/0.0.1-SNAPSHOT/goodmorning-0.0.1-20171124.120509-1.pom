@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	 <name>helloworld</name>
+	 <name>hello-world</name>
 	 
 	<properties>
 		<!-- github server corresponds to entry in ~/.m2/settings.xml -->
