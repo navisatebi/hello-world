@@ -6,8 +6,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	 <name>hello-world</name>
-	 
+	<name>hello-world</name>
+
 	<properties>
 		<!-- github server corresponds to entry in ~/.m2/settings.xml -->
 		<github.global.server>github</github.global.server>
@@ -19,6 +19,10 @@
 			<name>Temporary Staging Repository</name>
 			<url>file://${project.build.directory}/mvn-repo</url>
 		</repository>
+		<snapshotRepository>
+			<id>snapshot-repo</id>
+			<url>https://raw.github.com/EMBL-EBI-TSI/hello-world/mvn-repo/master/snapshots</url>
+		</snapshotRepository>
 	</distributionManagement>
 
 	<build>
