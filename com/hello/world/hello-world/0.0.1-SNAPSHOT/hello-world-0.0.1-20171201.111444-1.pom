@@ -19,10 +19,6 @@
 			<name>Temporary Staging Repository</name>
 			<url>file://${project.build.directory}/mvn-repo</url>
 		</repository>
-		<snapshotRepository>
-			<id>hello-world-mvn-repo</id>
-			<url>https://raw.github.com/EMBL-EBI-TSI/hello-world/mvn-repo/master/snapshots</url>
-		</snapshotRepository>
 	</distributionManagement>
 
 	<build>
@@ -59,7 +55,7 @@
 						<include>**/*</include>
 					</includes>
 					<repositoryName>hello-world</repositoryName>      <!-- github repo name -->
-					<repositoryOwner>EMBL-EBI-TSI</repositoryOwner>    <!-- github username -->
+					<repositoryOwner>navisatebi</repositoryOwner>    <!-- github username -->
 				</configuration>
 				<executions>
 					<!-- run site-maven-plugin's 'site' target as part of the build's normal 
