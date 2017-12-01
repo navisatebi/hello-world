@@ -20,7 +20,7 @@
 			<url>file://${project.build.directory}/mvn-repo</url>
 		</repository>
 		<snapshotRepository>
-			<id>snapshot-repo</id>
+			<id>hello-world-mvn-repo</id>
 			<url>https://raw.github.com/EMBL-EBI-TSI/hello-world/mvn-repo/master/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
